@@ -73,20 +73,29 @@ h1,h2,h4,h4,h5,h6{
 	left: 0;
 	right: 0;
 	z-index: 1000;
+    background: #fff;
 } 
+
+.header_img_logo{
+    padding-top: 3%;
+    display: flex;
+	width: 50%;
+    margin: 0 auto;
+}
 
 .header_inner{
     /*display:flex;*/
-    padding-top: 55%;
+    padding-top: 4%;
     padding-left: 10%;
     justify-content: space-between;
     align-items: center;
     font-family: 'OpenSansBold';
 }
+
 .header_logo{    
-    text-align: center;
+    padding-left: 23%;
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: bold;
 	color: #363d43;
 }
 
