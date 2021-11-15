@@ -1,13 +1,229 @@
-<html>
+<!DOCTYPE html>
+<html >
     <head>
-		<meta charset="utf-8">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @font-face {
+            font-family: OpenSansBold; /* Гарнитура шрифта */
+            src: url(fonts/OpenSansCondensed-Bold.ttf); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: MarckScriptRegular; /* Гарнитура шрифта */
+            src: url(fonts/MarckScript-Regular.ttf); /* Путь к файлу со шрифтом */
+            }            
+        </style>
         <title>Claude Monet</title>
+        <script src="JS/jquery-3.6.0.min.js"></script>
+        <script src="JS/scrypts.js"></script>
+                
     </head>
-    <frameset cols="15.5%, *" border="0"
-                             frameborder="0"
->
-        <frame src="header.html" marginwidth="50"
-�	                   marginheight="20" noresize>
-        <frame src="main.html" name="content" marginwidth="50" marginheight="20">
-    </frameset>
+    <body>
+    	<header class="header">
+    		<div class="container">
+                   	<img id="header_logo" class="header_img_logo" src="img/logo.png" alt="">
+                <div id="div1" class="header_inner">
+
+	    			<div id="div2" class="header_logo">Claude Monet</div>
+                    
+	    			<nav class="nav">
+	    				<a class="nav_link" href="#">Главная</a>
+	    				<a class="nav_link" href="#">О НАС</a>
+	    				<a class="nav_link" href="#">МЕНЮ</a>
+	    				<a class="nav_link" href="#">НОВОСТИ</a>
+	    				<a class="nav_link" href="#">СМИ О НАС</a>
+	    				<a class="nav_link" href="#">КОНТАКТЫ</a>
+	    				<a class="nav_link" href="#">ДОСТАВКА</a>                        
+	    			</nav>
+	    		</div>
+                <a_slider class="btn" href="#">JS PROVERochka</a_slider>
+            </div>
+
+    	</header>
+
+    	<div class="intro">
+	    	<div class="container">
+                <div class="intro_inner">
+                        <h1 class="intro_title_1">Добро пожаловть в</h1>
+                        <h1 class="intro_title_2">Клод Моне</h1>
+                        <h2 class="intro_bottitle">Необистро от Александра Раппопорта и Владимира Познера</h2>
+	    		</div>
+	    	</div>
+    	</div>
+
+
+        <section class="section">
+            <div class="container">
+            	<div class="section_header">
+            		<h3 class="section_suptitle">Необистро</h3>
+            		<h2 class="section_title">ЖЕРАЛЬДИН</h2>
+            		<div class="section_text">На Остоженке, 27 в новой версии заработало бистро «Жеральдин». Если в середине нулевых проект, названный в честь француженки Жеральдин Познер был известен как классическая французская брассерия, то летом 2017 года «Жеральдин» открывает свои двери в формате необистро.</div>
+                    <a_slider class="btn" href="#">О НАС</a_slider>
+            	</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <div class="container_mas">
+                <div class="container_mas_item">
+                    <div class="section_header">
+                        <h3 class="section_suptitle">Меню</h3>
+                        <h2 class="section_title">ЖЕРАЛЬДИН</h2>
+                        <div class="section_text">В «Жеральдин» получился любопытнейший микс, в котором французская кулинария используется как тема, вокруг которой легко и иронично разворачивается космополитическая импровизация на итальянские, китайские, испанские и тайские мотивы.</div>
+                    </div>
+                </div>
+                <div class="container_mas_item">
+                    <img class="section_img_present" src="img/present_1.jpg" alt="">
+                </div>
+            </div>    
+        </section>
+                <section class="section">
+            <div class="container">
+                    <div class="gallery">
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_1.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ЛИНГВИНИ С ТЕЛЯТИНОЙ И ЛИМОННЫМ СОУСОМ
+    ₽950</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_2.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ЧИАБАТТА С ЯЙЦОМ ПАШОТ И ГОЛЛАНДСКИМ СОУСОМ
+    ₽370</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_3.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ПАЛТУС С КАРТОФЕЛЬНЫМ ПЮРЕ И ШПИНАТОМ
+    ₽1050</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_3.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ПАЛТУС С КАРТОФЕЛЬНЫМ ПЮРЕ И ШПИНАТОМ
+    ₽1050</div>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_1.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ЛИНГВИНИ С ТЕЛЯТИНОЙ И ЛИМОННЫМ СОУСОМ
+    ₽950</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_2.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ЧИАБАТТА С ЯЙЦОМ ПАШОТ И ГОЛЛАНДСКИМ СОУСОМ
+    ₽370</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_3.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ПАЛТУС С КАРТОФЕЛЬНЫМ ПЮРЕ И ШПИНАТОМ
+    ₽1050</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_3.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ПАЛТУС С КАРТОФЕЛЬНЫМ ПЮРЕ И ШПИНАТОМ
+    ₽1050</div>
+                        </div>
+                    </div> 
+                </div>
+        </section>
+        
+                <section class="section">
+            <div class="container">
+            	<div class="section_header">
+            		<h2 class="section_title">ЦИТАТЫ ИЗ МЕНЮ</h2>
+            	</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+            	<div class="section_header">
+            		<h3 class="section_suptitle">Интерьер</h3>
+            		<h2 class="section_title">ЖЕРАЛЬДИН</h2>
+            		<div class="section_text">Бистро с французским акцентом – это прежде всего атмосфера, отражение эпохи конца 50-х начала 60-х годов в столь выдержанном, модном сейчас стиле mid-century. «Плюшевый Париж» в Москве воплотил архитектор Валерий Лизунов. Стиль здесь доведен до совершенства – мрамор доставляли из лучших итальянских каменоломен, свет изготавливали по чертежам 50-х годов, а большая часть мебели, середины прошлого века, специально для Жеральдин подбирала в Европе и потом обновляла современными стилизованными тканями дизайнер Алина Ковалева из галереи «Палисандр». Даже французские книги и глянцевые журналы приехали на полки «Жеральдин» из Парижа – атмосфера должна соответствовать, и картина – быть полной.</div>
+            	</div>
+            </div>
+        </section>
+
+                <section class="section">
+            <div class="container">
+                    <div class="gallery">
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_1.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ЛИНГВИНИ С ТЕЛЯТИНОЙ И ЛИМОННЫМ СОУСОМ
+    ₽950</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_2.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ЧИАБАТТА С ЯЙЦОМ ПАШОТ И ГОЛЛАНДСКИМ СОУСОМ
+    ₽370</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_3.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ПАЛТУС С КАРТОФЕЛЬНЫМ ПЮРЕ И ШПИНАТОМ
+    ₽1050</div>
+                        </div>
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img"  src="img/gallery_3.jpg" alt="">
+                            </div>
+                            <div class="about_text"	>ПАЛТУС С КАРТОФЕЛЬНЫМ ПЮРЕ И ШПИНАТОМ
+    ₽1050</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+        <footer class="footer">
+        	<div class="container">
+                
+        		<div class="footer_inner">
+        			<div class="footer_col footer_col--first">
+        				<div class="footer_text_h1">Claude Monet</div>
+                        <div class="footer_text">На Остоженке, 27 в новой версии заработало бистро «Жеральдин». Всему свое время: если в середине нулевых проект, названный в честь француженки Жеральдин Познер был известен как классическая французская брассерия, то летом 2017 года «Жеральдин» открывает свои двери в формате необистро</div>
+        			</div>
+                    
+        			<div class="footer_col footer_col--second">
+        				<div class="footer_text_h1">РЕЖИМ РАБОТЫ</div>
+                        <div class="footer_text"><div class="ftb">Зал:</div>c 9:00 до 23:00 <div class="ftb">Веранда:</div>c 10:30 до 23:00</div>
+        			</div>
+                    
+        			<div class="footer_col footer_col--third">
+        				<div class="footer_text_h1">Claude Monet</div>
+                        <a href="https://www.facebook.com">facebook</a>
+                        <a href="https://twitter.com">tvitter</a>
+                        <a href="https://www.instagram.com">instagram</a>
+                        <div class="footer_text" >+7 800 555 35 35</div>
+                        <div class="footer_text">Россия, Республика Хакасия, Абакан, проспект Ленина, 90</div>
+        			</div>
+        		</div>
+        			<div class="copyright">
+        				Claude Monet © 2021
+        			</div>
+        		</div><!--container-->
+        </footer>
+
+    </body>
+    
 </html>
