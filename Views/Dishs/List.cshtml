@@ -1,0 +1,23 @@
+﻿
+<h1>Все блюда</h1>
+<h2>@Model.currCategory</h2>
+
+<section class="section">
+        <div class="gallery_col">
+            <div class="gallery">
+                @{
+
+                    foreach (var dish in Model.allDishs)
+                    {
+                        <div class="gallery_item">
+                            <div class="gallery_img_con">
+                                <img class="gallery_img" src=@dish.img alt="@dish.name">
+                            </div>
+                            <div class="about_text">@dish.desc_short @dish.price</div>
+                        </div>
+                    }
+                    <!-- <a_slider class="btn" href="#">Подробнее</a_slider> -->
+                }
+            </div>
+        </div>
+</section>
